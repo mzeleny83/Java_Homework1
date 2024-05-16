@@ -1,6 +1,7 @@
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
+
 public class Main {
     public static void ukol1() {
         System.out.println("Hello world!");
@@ -70,14 +71,17 @@ public class Main {
         ukol8();
         ukol9();
 
-        String Name;
-        String Surname;
-        LocalDate birthdate;
-        int numberOfContracts;
-        double weightOfCarrot;
-        String cityOfSeat;
-        String registrationPlate;
-        double consumption;
-        String IPAddress;
+        String Name=Karel;
+        String Surname=Vašek;
+        LocalDate birthdate=LocalDate.of(1973,3,1);
+        int numberOfContracts=1500;
+        double weightOfCarrot=73.5;
+        String cityOfSeat=Brno;
+        String registrationPlate=4B43839;
+        double consumption=6.3;
+        String IPAddress=192.168.48.39;
 
+        double averageWeightOfSoldCarrot=weightOfCarrot/numberOfContracts;
+
+        system.out.println(averageWeightOfSoldCarrot);
     }}
