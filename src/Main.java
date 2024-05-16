@@ -71,17 +71,17 @@ public class Main {
         ukol8();
         ukol9();
 
-        String Name=Karel;
-        String Surname=Vašek;
+        String Name="Karel";
+        String Surname="Vašek";
         LocalDate birthdate=LocalDate.of(1973,3,1);
         int numberOfContracts=1500;
         double weightOfCarrot=73.5;
-        String cityOfSeat=Brno;
-        String registrationPlate=4B43839;
+        String cityOfSeat="Brno";
+        String registrationPlate="4B43839";
         double consumption=6.3;
-        String IPAddress=192.168.48.39;
+        String IPAddress="192.168.48.39";
 
-        double averageWeightOfSoldCarrot=weightOfCarrot/numberOfContracts;
+        double averageWeightOfSoldCarrot=weightOfCarrot/numberOfContracts*1000;
 
-        system.out.println(averageWeightOfSoldCarrot);
+        System.out.println("Průměrné množství prodané mrkve na jednu smlouvu je:"+averageWeightOfSoldCarrot+"kg");
     }}
